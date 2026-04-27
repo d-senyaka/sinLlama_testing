@@ -2,8 +2,8 @@
 
 Small, practical runners to load and sanity-check **SinLlama** on CPU / GPU offload, and to compare quick baselines (PEFT/LoRA and Unsloth variants).
 
-> **Why SinLlama?**  
-> SinLlama extends Llama-3-8B with Sinhala-specific tokenizer updates and continual pretraining on a 10.7M-sentence cleaned Sinhala corpus, then fine-tunes with LoRA on several downstream tasks. In your experiments it **consistently beat Llama-3 base/instruct** on Sinhala classification tasks (notably ~**86 F1** on news categorization vs ~61 for a fine-tuned Llama-3 base).  
+**Why SinLlama?**  
+SinLlama extends Llama-3-8B with Sinhala-specific tokenizer updates and continual pretraining on a 10.7M-sentence cleaned Sinhala corpus, then fine-tunes with LoRA on several downstream tasks. In your experiments it **consistently beat Llama-3 base/instruct** on Sinhala classification tasks (notably ~**86 F1** on news categorization vs ~61 for a fine-tuned Llama-3 base).  
 > Method highlights: tokenizer extension for Sinhala, continual pretraining, LoRA fine-tuning.
 
 ---
